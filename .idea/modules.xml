@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/h5-invitation.iml" filepath="$PROJECT_DIR$/.idea/h5-invitation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/molirun.iml" filepath="$PROJECT_DIR$/.idea/molirun.iml" />
+    </modules>
+  </component>
+</project>

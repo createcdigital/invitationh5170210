@@ -1,0 +1,336 @@
+
+//$basePx:640;
+//
+//@function pxCount($px) {
+//  @return $px/$basePx*10+rem;
+//}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+}
+img {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+html,body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background: #000d1a;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  .swiper-wrapper {
+    .slide-one {
+      position: relative;
+      .p1-bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .p1-logo {
+        width: 296px;
+        height: 27px;
+        position: absolute;
+        top: 115px;
+        left: 222px;
+      }
+      .p1-text {
+        width: 403px;
+        height: 256px;
+        position: absolute;
+        top: 295px;
+        left: 173px;
+      }
+      .p1-local {
+        width: 457px;
+        height: 141px;
+        position: absolute;
+        top: 900px;
+        left: 146px;
+      }
+      .p1-btn {
+        width: 188px;
+        height: 188px;
+        position: absolute;
+        top: 664px;
+        left: 280px;
+        .p1-go {
+          width: 149px;
+          height: 149px;
+          position: absolute;
+          top: 19.5px;
+          left: 19.5px;
+        }
+        .p1-line1 {
+          width: 170px;
+          height: 170px;
+          position: absolute;
+          top: 9px;
+          left: 9px;
+          -webkit-animation:rotate 1.5s infinite linear;
+        }
+        .p1-line2 {
+          width: 188px;
+          height: 188px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          -webkit-animation:rotate2 1.5s infinite linear;
+        }
+      }
+    }
+    .slide-two {
+      position: relative;
+      .p2-bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+      .p2-btn {
+        width: 105px;
+        height: 105px;
+        position: absolute;
+        top: 1042px;
+        left: 321px;
+        display: none;
+        .p2-go {
+          width: 105px;
+          height: 105px;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+        .p2-line1 {
+          width: 105px;
+          height: 105px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          -webkit-animation:rotate 1.5s infinite linear;
+        }
+        .p2-line2 {
+          width: 105px;
+          height: 105px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          -webkit-animation:rotate2 1.5s infinite linear;
+        }
+      }
+      .left-btn {
+        width: 38px;
+        height: 14px;
+        position: absolute;
+        top: 1088px;
+        left: 268px;
+        -webkit-animation:leftTo 1s infinite linear;
+        display: none;
+      }
+      .right-btn {
+        width: 38px;
+        height: 14px;
+        position: absolute;
+        top: 1088px;
+        right: 272px;
+        -webkit-animation:rightTo 1s infinite linear;
+        display: none;
+      }
+      .p2-house1 {
+        width: 740px;
+        height: 801px;
+        position: absolute;
+        top: 148px;
+        left: 10px;
+        z-index: 2;
+        display: none;
+      }
+      .p2-light1,.p2-light2,.p2-light3 {
+        width: 617px;
+        height: 665px;
+        position: absolute;
+        top: 150px;
+        left: 70px;
+        z-index: 1;
+        display: none;
+      }
+      .p2-house2 {
+        width: 100%;
+        height: 936px;
+        position: absolute;
+        top: 0;
+        left: 10px;
+        display: none;
+        z-index: 2;
+      }
+      .p2-shadow {
+        width: 619px;
+        height: 48px;
+        position: absolute;
+        top: 710px;
+        left: 71px;
+        display: none;
+        opacity: 0.5;
+        z-index: 2;
+      }
+      .p2-title {
+        width: 392px;
+        height: 37px;
+        position: absolute;
+        top: 813px;
+        left: 175px;
+        z-index: 3;
+        display: none;
+      }
+      .p2-btn2 {
+        width: 94px;
+        height: 44px;
+        position: absolute;
+        top: 1085px;
+        left: 323px;
+        z-index: 3;
+        -webkit-animation:gonext 1.5s infinite linear;
+        display: none;
+      }
+      .p2-sky {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        display: none;
+      }
+    }
+    .slide-three {
+      position: relative;
+      .p3-bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .p3-local {
+        width: 326px;
+        height: 333px;
+        position: absolute;
+        top: 101px;
+        left: 217px;
+      }
+      .p3-map {
+        width: 342px;
+        height: 354px;
+        position: absolute;
+        top: 490px;
+        left: 209px;
+      }
+      .p3-code {
+        width: 161px;
+        height: 194px;
+        position: absolute;
+        top: 901px;
+        left: 294px;
+      }
+    }
+  }
+}
+
+
+.audio-icon {
+  width: 46px;
+  height: 52px;
+  position: fixed;
+  top: 91px;
+  left: 663px;
+  background: url(../img/musicIcon.png) no-repeat;
+  background-size: 100% 100%;
+  z-index: 10;
+}
+
+.audio-icon-animation {
+  -webkit-animation: rotate 2s linear infinite;
+}
+
+@-webkit-keyframes rotate {0%,100% {transform: rotate(0deg);} 100% {transform: rotate(360deg);}}
+@-webkit-keyframes rotate2 {0%,100% {transform: rotate(0deg);} 100% {transform: rotate(-360deg);}}
+@-webkit-keyframes gonext {
+  0%{top:90%}
+  25%{top:89%}
+  50%{top:90%}
+  75%{top:91%}
+  100%{top:90%}
+}
+@-webkit-keyframes leftTo {
+  0%{
+    width: 38px;
+    height: 14px;
+    position: absolute;
+    top: 1088px;
+    left: 248px;
+    opacity: 0.9;
+  }
+  50%{
+    width: 38px;
+    height: 14px;
+    position: absolute;
+    top: 1088px;
+    left: 258px;
+    opacity: 0.6;
+  }
+  100%{
+    width: 38px;
+    height: 14px;
+    position: absolute;
+    top: 1088px;
+    left: 268px;
+    opacity: 0.2;
+  }
+}
+@-webkit-keyframes rightTo {
+  0%{
+    width: 38px;
+    height: 14px;
+    position: absolute;
+    top: 1088px;
+    right: 252px;
+    opacity: 0.9;
+  }
+  50%{
+    width: 38px;
+    height: 14px;
+    position: absolute;
+    top: 1088px;
+    right: 262px;
+    opacity: 0.6;
+  }
+  100%{
+    width: 38px;
+    height: 14px;
+    position: absolute;
+    top: 1088px;
+    right: 272px;
+    opacity: 0.2;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
